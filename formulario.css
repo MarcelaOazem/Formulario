@@ -1,0 +1,93 @@
+body {
+    font-family: 'Montserrat', sem serifa;
+    color: #695958;
+}  
+
+header {
+	background: #EFE5DC;
+	padding: 20px;
+}
+
+.logo {
+	position: relative;
+	margin: 20px 0;
+	padding: 15px;
+}
+
+.titulo-principal {
+	text-align: center;
+	color: #73A580;
+	font-size: 40px;
+	font-weight: bold;
+	padding: 20px;
+	margin: 20px 20px 0;
+}
+
+main { 
+	width: 940px;
+	padding: 15px;
+	margin: 0 100px
+}
+
+form {
+	margin: 15px 0;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 15px;
+	margin: 0 0 10px;
+}
+
+label strong, legend strong {
+	font-weight: bold;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 15px;
+	width: 50%;
+	border-radius: 5px;
+}
+
+.check {
+	display: inline-block;
+}
+
+select {
+	display: block;
+	font-size: 12px;
+	margin: 0 0 20px;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: #E7C8B3;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}	
+
+.enviar:hover {
+	background: #D1B9AD;
+	transform:  scale(1.2);
+}
+
+footer {
+	text-align: center;
+	padding: 20px;
+	background: #D1B9AD;
+}
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+
